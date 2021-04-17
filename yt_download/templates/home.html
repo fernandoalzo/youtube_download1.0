@@ -6,14 +6,24 @@
 
 {% block content %}
 
-<div class="control has-icons-left has-icons-right">
-
+<div class="control has-icons-left has-icons-right">    
     <form action="" method="POST" novalidate>
-        <input class="input" type="text" name="link" placeholder="Link del video o Playlist">
-        
-        <br><br><button type="submit" class="button is-link is-large is-focused has-text-weight-bold">Descargar &nbsp <i class="fas fa-cloud-download-alt"></i> </button> 
+        {{ formulario.hidden_tag() }}
+        <input class="input" type="text" name="link_video" placeholder="Link del video o Playlist">
+        <div>
+            {% for error in formulario.link_video.errors %}
+            <span class="tag is-danger is-light">
+                <i class="fa fa-exclamation-triangle"></i>
+                &nbsp; por favor pegue aqui el link del video o del playlist!!!
+            </span>
+            {% endfor %}
+        </div>        
+        <br><button type="submit" class="button is-link is-large is-focused has-text-weight-bold">Descargar &nbsp <i class="fas fa-cloud-download-alt"></i> </button> 
     </form>
-</div>
-    
 
+    <div class="field">
+        <br>
+        <a class="tag is-link" href="{{ url_for('yt_download.descargar') }}"><i class="fas ffas fa-broom"></i> &nbsp Limpiar Campo</a>        
+    </div>
+</div>
 {% endblock %}
