@@ -2,10 +2,18 @@
 {% extends "base.html" %}
 {% block title %}Home{% endblock %}
 
-{% block app_name %} hola mundo {% endblock %}
+{% block app_name %} Youtube Downloader {% endblock %}
 
 {% block content %}
 
-    hola mundo 
+<div class="control has-icons-left has-icons-right">
+
+    <form action="" method="POST" novalidate>
+        <input class="input" type="text" name="link" placeholder="Link del video o Playlist">
+        
+        <br><br><button type="submit" class="button is-link is-large is-focused has-text-weight-bold">Descargar &nbsp <i class="fas fa-cloud-download-alt"></i> </button> 
+    </form>
+</div>
+    
 
 {% endblock %}
