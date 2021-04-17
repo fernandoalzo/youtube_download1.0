@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="900" >
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{% block title %}{% endblock %}</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    </head>
+
+    <body>
+        <div class="hero is-dark is-fullheight">
+            <div class="hero-body is-ligth">
+                <div class="column is-centered">
+                    <center>
+                        <p class="title is-1">{%  block app_name %}{%  endblock %}</p>
+                        {% block content %}  
+
+                        {% endblock %}
+                    </center>
+                </div>                             
+            </div>
+        </div>
+
+        <div class="hero is-danger is-small">
+            <section class="hero-body">
+                <marquee direction="right" behavior="alternate">  
+                    <FONT FACE="Monaco"><p class="title is-size-1 has-text-weight-bold has-text-black"> ...RRR... </p></FONT>
+                </marquee>
+            </section>
+        </div>
+    </body>
+</html>
