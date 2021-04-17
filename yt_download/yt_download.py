@@ -1,5 +1,6 @@
 from flask import Blueprint, render_template, url_for
 from .formulario import formulario_link_video
+from .funciones import funciones
 
 yt_download = Blueprint("yt_download", __name__, template_folder='templates')
 
@@ -13,5 +14,7 @@ def descargar():
     if formulario.validate_on_submit():
         print("Link del video: ")
         print(link_video)
+        print("Descargando...")
+        funciones.download_vidoes_as_mp3(link_video)
 
     return render_template("home.html", formulario = formulario)
