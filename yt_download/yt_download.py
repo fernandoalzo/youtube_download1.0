@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template, url_for
+from flask import Blueprint, render_template, url_for, send_file, redirect
 from .formulario import formulario_link_video
 from .funciones import funciones
 
@@ -12,9 +12,21 @@ def descargar():
     link_video = formulario.link_video.data
 
     if formulario.validate_on_submit():
-        print("Link del video: ")
-        print(link_video)
-        print("Descargando...")
-        funciones.download_vidoes_as_mp3(link_video)
+        download_video = funciones.download_vidoes_as_mp3(link_video)
+        if download_video == 0:
+            funciones.comprimir("./temp")
+            funciones.eliminar_archivos_usados("./temp")
+            funciones.mover_archivos("./canciones.zip")
+            return redirect(url_for('yt_download.descargar_comprimido'))
 
-    return render_template("home.html", formulario = formulario)
+        else:
+            print("==================================")
+            print("Ocurrio un error!!!")
+            print("==================================")
+
+    return render_template("home.html", formulario=formulario)
+
+@yt_download.route("/descargar_comprimido")
+def descargar_comprimido():
+    zip_file = "./temp/canciones.zip"
+    return send_file(zip_file, as_attachment=True)
