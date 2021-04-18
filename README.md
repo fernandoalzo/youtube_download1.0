@@ -12,7 +12,7 @@ python ./run.py <br>
 
 uso: <br>
 a traves de un navegador ingresar http://127.0.0.1:5000/ <br>
-adjunte el link de la cancio y el playlist y listo!!! <br>
+adjunte el link de la cancio o el playlist y listo!!! o adjunte varios links<br>
 
 si le fue util la herramienta, gasteme un cafe, si no, no hay problema espero que lo disfrute. <br>
 DOGE wallet: <br>
