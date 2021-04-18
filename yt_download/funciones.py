@@ -16,12 +16,10 @@ class funciones():
                 'preferredquality': '192',
             }],
             'outtmpl': SAVE_PATH + '/%(title)s.%(ext)s',
-            }
+            }            
             with youtube_dl.YoutubeDL(ydl_opts) as ydl:
-                ydl.download([link_video])\
-            
+                ydl.download([link_video])                
             return 0
-
         except:
             return 1
 

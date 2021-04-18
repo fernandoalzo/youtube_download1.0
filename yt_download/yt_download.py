@@ -9,20 +9,20 @@ yt_download = Blueprint("yt_download", __name__, template_folder='templates')
 @yt_download.route("/descargar", methods=['GET', 'POST'])
 def descargar():
     formulario = formulario_link_video()
-    link_video = formulario.link_video.data
+    link_video = list(str(formulario.link_video.data).strip().split("\r"))
 
-    if formulario.validate_on_submit():
-        download_video = funciones.download_vidoes_as_mp3(link_video)
-        if download_video == 0:
-            funciones.comprimir("./temp")
-            funciones.eliminar_archivos_usados("./temp")
-            funciones.mover_archivos("./canciones.zip")
-            return redirect(url_for('yt_download.descargar_comprimido'))
+    if formulario.validate_on_submit():   
 
-        else:
-            print("==================================")
-            print("Ocurrio un error!!!")
-            print("==================================")
+        for i in link_video:
+            print("========================================<<LINK>>====================================")
+            print(i)
+            print("============================================================++++++++================")            
+            funciones.download_vidoes_as_mp3(i.strip("\n"))
+
+        funciones.comprimir("./temp")
+        funciones.eliminar_archivos_usados("./temp")
+        funciones.mover_archivos("./canciones.zip")
+        return redirect(url_for('yt_download.descargar_comprimido'))
 
     return render_template("home.html", formulario=formulario)
 

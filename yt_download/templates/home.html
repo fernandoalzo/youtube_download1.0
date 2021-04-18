@@ -3,10 +3,58 @@
 {% block app_name %} Youtube a mp3 Downloader {% endblock %}
 {% block content %}
 
+<style>
+    .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    float: right;
+    font-size:0.7em;
+    }            
+    .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: black;
+    color: white;
+    text-align: left;
+    border-radius: 6px;
+    border: 10px solid #000;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    }            
+    .tooltip:hover .tooltiptext {
+    visibility: visible;
+    }
+    .bombilla{
+        color: yellow;
+    }
+    .titletips{
+        font-size: 150%;
+    }        
+</style> 
+<div class="tooltip">
+    <span class="icon is-small is-left"> 
+        <i class="fas fa-question-circle"></i>  
+    </span>            
+    <span class="tooltiptext">
+        <p>
+            <span class="titletips">
+            Instrucciones: <br>
+            </span>
+            <span class="bombilla">
+            <i class="fas fa-lightbulb"></i></span> Pegue en el area de texto todos<br> 
+                                                    los <b>LINKS</b> separados por un <b>ENTER</b> <br> 
+                                                    formando una lista con ellos.      
+        </p>                
+    </span>
+</div>
 <div class="control has-icons-left has-icons-right">    
     <form action="" method="POST" novalidate>
         {{ formulario.hidden_tag() }}
-        <input class="input" type="text" name="link_video" placeholder="Link del video o Playlist">
+        <textarea class="textarea" placeholder="Pegue aqui en link del video, o el link de la playlist, o la lista de links de videos, o la lista de links de playlists" rows="10" name="link_video"></textarea>
 
         <div>
             {% for error in formulario.link_video.errors %}
@@ -16,13 +64,13 @@
             </span>
             {% endfor %}
         </div>
-
         <br><button type="submit" class="button is-link is-large is-focused has-text-weight-bold">Descargar &nbsp <i class="fas fa-cloud-download-alt"></i> </button> 
-    </form>
+    </form>   
 
     <div class="field">
         <br>
         <a class="tag is-link" href="{{ url_for('yt_download.descargar') }}"><i class="fas ffas fa-broom"></i> &nbsp Limpiar Campo</a>        
     </div>
 </div>
+
 {% endblock %}
