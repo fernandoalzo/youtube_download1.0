@@ -3,12 +3,12 @@ este pequeño fragmento de codigo es una aplicacon web que permite descargar vid
 Descarga:
 git clone https://github.com/fernandoalzo/youtube_download1.0.git
 
-Instalacion:
-cd youtube_download1.0
-pip3 install -r requirements.txt
+Instalacion: <br>
+cd youtube_download1.0 <br> <br>
+pip3 install -r requirements.txt <br>
 
-ejecucion:
-python ./run.py
+ejecucion: <br>
+python ./run.py <br>
 
 uso:
 a traves de un navegador ingresar http://127.0.0.1:5000/
