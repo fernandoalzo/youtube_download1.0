@@ -22,4 +22,4 @@ Si le fue util, gasteme un cafe, si no, no hay problema espero que lo disfrute. 
 
 ![doge](https://user-images.githubusercontent.com/34621303/115251719-6a3e6000-a0f0-11eb-8411-cadb4d15f099.png)  DOGE wallet: DJ3HrfyXfdzAcKotjQPzqoXKHhqMfDSSVe
 
-![ada](https://user-images.githubusercontent.com/34621303/115251146-dec4cf00-a0ef-11eb-8520-8443c8c55b53.png) ADA wallet:       DdzFFzCqrht4TQQxQeKthbjvQvXK7peXrtQUxkyE55GzFU2T6MMsghSKSt1RwQq4vy6F8BWNNsZ2kGUbi45SsseUKBZ5coWNtpcLnTFB
+![ada](https://user-images.githubusercontent.com/34621303/115251146-dec4cf00-a0ef-11eb-8520-8443c8c55b53.png) ADA wallet:       **DdzFFzCqrht4TQQxQeKthbjvQvXK7peXrtQUxkyE55GzFU2T6MMsghSKSt1RwQq4vy6F8BWNNsZ2kGUbi45SsseUKBZ5coWNtpcLnTFB**
