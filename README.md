@@ -14,7 +14,7 @@ Uso: <br>
 a traves de un navegador ingresar http://127.0.0.1:5000/ <br>
 Adjunte el link del video o el playlist o adjunte varios links y listo!!! <br>
 
-Si le fue util, gasteme un cafecito, si no, no hay problema espero que lo disfrute. <br>
+Si le fue util, gasteme un cafe, si no, no hay problema espero que lo disfrute. <br>
 DOGE wallet: <br>
 DJ3HrfyXfdzAcKotjQPzqoXKHhqMfDSSVe <br>
 ADA wallet: <br>
