@@ -29,7 +29,8 @@ python ./run.py
 
 # Donaciones
 
-Si le fue util, gasteme un cafe, si no, no hay problema espero que lo disfrute. <br>
+Si le fue util, gasteme un cafe, si no, no hay problema espero que lo disfrute. ![bien2](https://user-images.githubusercontent.com/34621303/115312857-c7a9cf80-a137-11eb-955d-882d1ac9f63d.png)
+ <br>
 
 ![doge](https://user-images.githubusercontent.com/34621303/115251719-6a3e6000-a0f0-11eb-8411-cadb4d15f099.png)  DOGE wallet: **DJ3HrfyXfdzAcKotjQPzqoXKHhqMfDSSVe**
 
