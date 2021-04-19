@@ -31,6 +31,9 @@ python ./run.py
 
 Si le fue util, gasteme un cafe, si no, no hay problema espero que lo disfrute.   ![bien2](https://user-images.githubusercontent.com/34621303/115312951-f9bb3180-a137-11eb-9f9f-cc3c0aa03ae9.png)
 
+![dge_qr](https://user-images.githubusercontent.com/34621303/115313385-c88f3100-a138-11eb-9621-6d101291014f.png)
+
+
  <br>
 
 ![doge](https://user-images.githubusercontent.com/34621303/115251719-6a3e6000-a0f0-11eb-8411-cadb4d15f099.png)  DOGE wallet: **DJ3HrfyXfdzAcKotjQPzqoXKHhqMfDSSVe**
