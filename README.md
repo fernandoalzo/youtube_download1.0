@@ -9,7 +9,7 @@
 Descarga: <br>
 git clone https://github.com/fernandoalzo/youtube_download1.0.git
 
-Instalacion: <br>
+* Instalacion: <br>
 cd youtube_download1.0 <br>
 pip3 install -r requirements.txt <br>
 
