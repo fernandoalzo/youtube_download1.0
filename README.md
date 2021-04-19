@@ -4,19 +4,21 @@
 ![Flask_logo2](https://user-images.githubusercontent.com/34621303/115253554-1c2a5c00-a0f2-11eb-9e9c-b2838a1cc14a.png)
 ![youtubedl2](https://user-images.githubusercontent.com/34621303/115253901-762b2180-a0f2-11eb-89a8-aa2c58dc786d.png)
 
-## Descarga: <br>
+Descarga: <br>
 git clone https://github.com/fernandoalzo/youtube_download1.0.git
 
-## Instalacion: <br>
+Instalacion: <br>
 cd youtube_download1.0 <br>
 pip3 install -r requirements.txt <br>
 
-## Ejecucion: <br>
+Ejecucion: <br>
 python ./run.py <br>
 
-## Uso: <br>
+Uso: <br>
 a traves de un navegador ingresar http://127.0.0.1:5000/ <br>
-Adjunte el link del video o el playlist o adjunte varios links y listo!!! <br>
+Adjunte el link del video o el playlist o adjunte varios links y listo!!! <br> <br>
+
+# Donaciones
 
 Si le fue util, gasteme un cafe, si no, no hay problema espero que lo disfrute. <br>
 
