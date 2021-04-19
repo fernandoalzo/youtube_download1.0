@@ -29,7 +29,7 @@ python ./run.py
 
 # Donaciones
 
-Si le fue util, gasteme un cafe, si no, no hay problema espero que lo disfrute.![bien2](https://user-images.githubusercontent.com/34621303/115312951-f9bb3180-a137-11eb-9f9f-cc3c0aa03ae9.png)
+Si le fue util, gasteme un cafe, si no, no hay problema espero que lo disfrute.   ![bien2](https://user-images.githubusercontent.com/34621303/115312951-f9bb3180-a137-11eb-9f9f-cc3c0aa03ae9.png)
 
  <br>
 
