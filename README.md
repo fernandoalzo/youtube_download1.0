@@ -10,9 +10,10 @@ Descarga: <br>
 git clone https://github.com/fernandoalzo/youtube_download1.0.git
 
 * Instalacion: <br>
-1 - cd youtube_download1.0 <br>
-2 - pip3 install -r requirements.txt <br>
-
+```
+cd youtube_download1.0 <br>
+pip3 install -r requirements.txt <br>
+```
 * Ejecucion: <br>
 3 - python ./run.py <br>
 
@@ -27,12 +28,3 @@ Si le fue util, gasteme un cafe, si no, no hay problema espero que lo disfrute. 
 ![doge](https://user-images.githubusercontent.com/34621303/115251719-6a3e6000-a0f0-11eb-8411-cadb4d15f099.png)  DOGE wallet: **DJ3HrfyXfdzAcKotjQPzqoXKHhqMfDSSVe**
 
 ![ada](https://user-images.githubusercontent.com/34621303/115251146-dec4cf00-a0ef-11eb-8520-8443c8c55b53.png) ADA wallet:       **DdzFFzCqrht4TQQxQeKthbjvQvXK7peXrtQUxkyE55GzFU2T6MMsghSKSt1RwQq4vy6F8BWNNsZ2kGUbi45SsseUKBZ5coWNtpcLnTFB**
-
-
-```javascript
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
-```
