@@ -17,6 +17,8 @@ Adjunte el link del video o el playlist o adjunte varios links y listo!!! <br>
 Si le fue util, gasteme un cafe, si no, no hay problema espero que lo disfrute. <br>
 DOGE wallet: <br>
 ![doge4](https://user-images.githubusercontent.com/34621303/115251639-55fa6300-a0f0-11eb-800a-3649242c4a08.png)
+![doge](https://user-images.githubusercontent.com/34621303/115251719-6a3e6000-a0f0-11eb-8411-cadb4d15f099.png)
+
 
 DJ3HrfyXfdzAcKotjQPzqoXKHhqMfDSSVe <br>
 ADA wallet: <br>
