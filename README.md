@@ -6,22 +6,22 @@
 
 
 # Puesta en marcha:
-Descarga: <br>
+* Descarga:
 ```
 git clone https://github.com/fernandoalzo/youtube_download1.0.git
 ```
-* Instalacion: <br>
+* Instalacion:
 ```
 cd youtube_download1.0 <br>
 pip3 install -r requirements.txt <br>
 ```
 
-* Ejecucion: <br>
+* Ejecucion:
 ```
 python ./run.py <br>
 ```
 
-* Uso: <br>
+# Uso:
 4 -  a traves de un navegador ingresar http://127.0.0.1:5000/ <br>
 5 - Adjunte el link del video o el playlist o adjunte varios links y listo!!! <br> <br>
 
