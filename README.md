@@ -1,4 +1,4 @@
-este pequeño fragmento de codigo es una aplicacon web que permite descargar videos de youtube convertidos a formato MP3.
+Este pequeño fragmento de codigo es una aplicacon web que permite descargar videos de youtube convertidos a formato MP3.
 
 Descarga: <br>
 git clone https://github.com/fernandoalzo/youtube_download1.0.git
@@ -7,14 +7,14 @@ Instalacion: <br>
 cd youtube_download1.0 <br>
 pip3 install -r requirements.txt <br>
 
-ejecucion: <br>
+Ejecucion: <br>
 python ./run.py <br>
 
-uso: <br>
+Uso: <br>
 a traves de un navegador ingresar http://127.0.0.1:5000/ <br>
-adjunte el link de la cancio o el playlist y listo!!! o adjunte varios links<br>
+Adjunte el link de la cancio o el playlist y listo!!! o adjunte varios links<br>
 
-si le fue util la herramienta, gasteme un cafe, si no, no hay problema espero que lo disfrute. <br>
+Si le fue util la herramienta, gasteme un cafe, si no, no hay problema espero que lo disfrute. <br>
 DOGE wallet: <br>
 DJ3HrfyXfdzAcKotjQPzqoXKHhqMfDSSVe <br>
 ADA wallet: <br>
