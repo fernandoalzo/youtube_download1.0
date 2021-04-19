@@ -23,7 +23,7 @@ python ./run.py
 
 # Uso:
 - A traves de un navegador ingresar http://127.0.0.1:5000/ <br>
-Adjunte el link del video o el playlist o adjunte varios links y listo!!! <br> <br>
+- Adjunte el link del video o el playlist o adjunte varios links y listo!!! <br> <br>
 <img width="361" alt="app" src="https://user-images.githubusercontent.com/34621303/115258870-fd7a9400-a0f6-11eb-9981-f6daefd6ff55.png">
 
 
