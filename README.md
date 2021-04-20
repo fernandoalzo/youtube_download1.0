@@ -26,7 +26,7 @@ python ./run.py
 - Adjunte el link del video o el playlist o adjunte varios links y listo!!! <br> <br>
 <img width="361" alt="app" src="https://user-images.githubusercontent.com/34621303/115258870-fd7a9400-a0f6-11eb-9981-f6daefd6ff55.png">
 
-
+<!---
 # Donaciones
 
 Si le fue util, gasteme un cafe, si no, no hay problema espero que lo disfrute.   ![bien2](https://user-images.githubusercontent.com/34621303/115312951-f9bb3180-a137-11eb-9f9f-cc3c0aa03ae9.png)
@@ -38,4 +38,4 @@ Si le fue util, gasteme un cafe, si no, no hay problema espero que lo disfrute. 
 ![ada](https://user-images.githubusercontent.com/34621303/115251146-dec4cf00-a0ef-11eb-8520-8443c8c55b53.png) ADA wallet:       **DdzFFzCqrht4TQQxQeKthbjvQvXK7peXrtQUxkyE55GzFU2T6MMsghSKSt1RwQq4vy6F8BWNNsZ2kGUbi45SsseUKBZ5coWNtpcLnTFB** 
 <br>
 ![ada_qr](https://user-images.githubusercontent.com/34621303/115313747-739fea80-a139-11eb-83c5-45832e19c303.png)
-
+---> 
